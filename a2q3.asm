@@ -6,4 +6,4 @@
 
 add $2, $1, $1 ; register $2 has double the value of $1
 add $1, $2, $2 ; register $1 has double the value of $2
-jr $31
+jr $31	       ; end program
