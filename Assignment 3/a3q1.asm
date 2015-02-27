@@ -1,3 +1,5 @@
+;; This program takes in three user inputs, two integers to each define a start and stop index respectively
+;; and a string which will be printed as a substring according to the two integers the user has defined.
 		add $3, $1, $0 ; start index
 		add $4, $2, $0 ; stop index
 		addi $5, $0, 1 ; save 1
