@@ -1,9 +1,17 @@
 ;; This program takes in three user inputs, two integers to each define a start and stop index respectively
 ;; and a string which will be printed as a substring according to the two integers the user has defined.
-		add $4, $1, $0 ; start index
-		add $5, $2, $0 ; stop index
-		addi $10, $0, 1 ; save 1
-		addi $11, $0, 0 ; init the counter
+;; Registers:
+;;	$4 - start index
+;; 	$5 - stop index
+;; 	$10 - holds value of 1
+;;	$11 - counter
+;;	$14, $15 - keyboard input, screen output respectively
+;;	$13 - temp value store
+
+		add $4, $1, $0
+		add $5, $2, $0
+		addi $10, $0, 1
+		addi $11, $0, 0
 
 		lis $14		; read from keyboard input
 		.word 0xFFFF0004

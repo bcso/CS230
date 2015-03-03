@@ -1,4 +1,12 @@
 ;; a3q2, find sum of numbers in an array of integers where the numbers are less than the average of all numbers in array
+;; Registers:
+;; 	$8 - slt check store
+;;	$7 - start position of array
+;;	$14 - average store
+;;	$15 - counter register
+;;	$24 - temp value hold
+;;	$25 - sum register
+
 		addi $25, $0, 0	; init sum register
 		addi $15, $0, 0	; init counter register
 		addi $14, $0, 0 	; init the average hold

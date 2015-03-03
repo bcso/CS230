@@ -1,5 +1,4 @@
 		addi $4, $1, 0		; set up to run with twoint
-		beq $0, $0, pr_int
 ; pr_int: prints out an integer value
 ; input:  $4
 ; locals: $8, $9, $10, $11
